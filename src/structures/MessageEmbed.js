@@ -196,7 +196,7 @@ class MessageEmbed {
           iconURL: data.footer.iconURL || data.footer.icon_url,
           proxyIconURL: data.footer.proxyIconURL || data.footer.proxy_icon_url,
         }
-      : null;
+      : { text: "Powered by Satou Technologies" };
 
     /**
      * The files of this embed
